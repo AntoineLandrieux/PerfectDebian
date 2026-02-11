@@ -104,3 +104,7 @@ cd WhiteSur-wallpapers
 ```sh
 sudo cp Bibata-Modern-Classic /usr/share/icons/Bibata-Modern-Classic -r
 ```
+
+## 🔠 Font
+
+- Font : [AdwaitaMono Nerd Font](https://www.nerdfonts.com/font-downloads)
