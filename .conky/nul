@@ -1,0 +1,19 @@
+
+7-Zip (a) 25.01 (x64) : Copyright (c) 1999-2025 Igor Pavlov : 2025-08-03
+ 64-bit locale=en_US.UTF-8 Threads:12 OPEN_MAX:1024, ASM
+
+Scanning the drive for archives:
+1 file, 411627 bytes (402 KiB)
+
+Extracting archive: /home/antoine/Downloads/Sirius-PlyrctlC-v3.1.zip
+--
+Path = /home/antoine/Downloads/Sirius-PlyrctlC-v3.1.zip
+Type = zip
+Physical Size = 411627
+
+Everything is Ok
+
+Folders: 5
+Files: 25
+Size:       709216
+Compressed: 411627

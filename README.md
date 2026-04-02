@@ -1,11 +1,7 @@
 
 # ✨ My Pefect Debian ✨
 
-🐧 `Debian 13 + GNOME`
-
-- Dark theme
-
-![image](resources/github/image.png)
+🐧 `Debian 13`
 
 ---
 
@@ -42,15 +38,36 @@ cp .bashrc ~/.bashrc
 cp .bash_aliases ~/.bash_aliases
 
 cp .config/ ~/.config -r
+cp .conky/ ~/.conky -r
 ```
 
-## ⚙️ Extensions
+## 🖱️  Cursor
+
+- Cursor : [Bibata Modern Classic](https://www.gnome-look.org/p/1914825)
+
+>
+> *Extract the downloaded archive...*
+>
+
+```sh
+sudo cp Bibata-Modern-Classic /usr/share/icons/Bibata-Modern-Classic -r
+```
+
+## 🔠 Font
+
+- Font : [AdwaitaMono Nerd Font](https://www.nerdfonts.com/font-downloads)
+
+---
+
+## Gnome
+
+### ⚙️  Extensions
 
 - [user-themes](https://extensions.gnome.org/extension/19/user-themes/) to enable gnome-shell theme (and not just the application theme)
 - [dash-to-panel](https://extensions.gnome.org/extension/1160/dash-to-panel/)
 - [blur-my-shell](https://extensions.gnome.org/extension/3193/blur-my-shell/)
 
-## 🎨 Theme
+### 🎨 Theme
 
 - Theme : [WhiteSur GTK Theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 
@@ -92,19 +109,3 @@ cd WhiteSur-wallpapers
 
 ./install-wallpapers.sh -t monterey
 ```
-
-## 🖱️ Cursor
-
-- Cursor : [Bibata Modern Classic](https://www.gnome-look.org/p/1914825)
-
->
-> *Extract the downloaded archive...*
->
-
-```sh
-sudo cp Bibata-Modern-Classic /usr/share/icons/Bibata-Modern-Classic -r
-```
-
-## 🔠 Font
-
-- Font : [AdwaitaMono Nerd Font](https://www.nerdfonts.com/font-downloads)

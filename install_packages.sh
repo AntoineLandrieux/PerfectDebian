@@ -1,7 +1,5 @@
 #!/bin/bash
 # Install packages for a perfect Debian setup
-# Gnome Shell and extensions
-apt install -y gnome-shell gnome-shell-extensions gnome-tweaks
 # Network and system monitoring tools
 apt install -y nmap htop net-tools whois openssh-client openssh-server netcat-traditional
 # Development tools and libraries

@@ -24,13 +24,13 @@ shopt -s checkwinsize
 # make less more friendly for non-text input files, see lesspipe(1)
 #[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-export PS1='\[\e[0m\]\[\e[1;43m\] 󰌢  \u@\h \[\e[0m\]\[\e[2m\]\[\e[0m\]\[\e[1;44m\]: \w \[\e[0m\]$ '
+export PS1='\[\e[0m\]\[\e[1;43m\] 󰌢 \u@\h \[\e[0m\]\[\e[2m\]\[\e[0m\]\[\e[1;44m\]: \w \[\e[0m\]$ '
 
-alias ls='lsd --group-directories-first'
+alias ls='lsd --group-directories-first --all'
 
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
-    alias ls='lsd --color=auto --group-directories-first'
+    alias ls='lsd --color=auto --group-directories-first -all'
 
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
 
